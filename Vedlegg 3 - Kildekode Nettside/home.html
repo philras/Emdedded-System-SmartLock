@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TEK301</title>
+
+
+    <link rel="stylesheet" href="style/homeStyle.css">
+
+
+</head>
+
+<body>
+<div id="logOut-container">
+    <button id="logOut" onclick="logOut()">Log Out</button>
+</div>
+
+
+<div class="container">
+    <div class="innerContainer">
+
+        <div id="status">
+            <h3 id="curCustomer"></h3>
+            <h3 id="curPin"></h3>
+        </div>
+
+        <div class="changeDataPage">
+            <input id="customer" type="text" placeholder="Customer name"/>
+            <button onclick="changeCustomer()">Change customer</button>
+            <input id="pin" type="text" placeholder="pin (4 tall)"/>
+            <button onclick="changePin()">Change pin</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="innerContainer">
+        <h1 id="title-text" class="h1-text">Last Events</h1>
+
+        <ul id="list-data"></ul>
+
+    </div>
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script type="text/javascript" src="js/firebaseInit.js"></script>
+
+<script src="js/homeJS.js"></script>
+
+</body>
+</html>

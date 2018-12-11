@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    background: #ff5c52;
+    background: -webkit-linear-gradient(right, #b83b44, #c25855);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logOut-container {
+    width: 960px;
+    padding: 1% 0 0;
+    margin: auto;
+}
+
+#logOut {
+    position: relative;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#logOut:hover, #logOut:active, #logOut:focus {
+    background: #9ca0a0;
+}
+
+.container {
+    width: 960px;
+    padding: 1% 0 0;
+    margin: auto;
+}
+
+.innerContainer {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#status {
+    background: #f2f2f2;
+    padding: 15px;
+    width: 60%;
+    border: 0;
+    margin: 10px auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#status h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 0;
+
+}
+
+.innerContainer input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 50%;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.innerContainer button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #ff4548;
+    width: 50%;
+    border: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.innerContainer button:hover, .innerContainer button:active, .innerContainer button:focus {
+    background: #a01039;
+}
+
+#title-text {
+    font-size: 25px;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    padding: 15px;
+    width: 60%;
+    border: 0;
+    margin: 10px auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#list-data {
+    transform: rotate(180deg);
+
+}
+
+#list-data > li {
+    transform: rotate(-180deg);
+}
